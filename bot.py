@@ -136,7 +136,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main function to start the bot
 def main():
-    TOKEN = "8001988418:AAEV2CFV7RJu1L34Qaz8E255E87ie8OhFz8"  # 🔴 Reset your token in BotFather
+    TOKEN = "YOUR_BOT_TOKEN"  # 🔴 Get your token in BotFather
     app = Application.builder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
